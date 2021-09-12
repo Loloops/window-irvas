@@ -5,6 +5,7 @@ const modals = () => {
           close = document.querySelector(closeSelector),
           windows = document.querySelectorAll('[data-modal]');
 
+
     trigger.forEach(item => {
       item.addEventListener('click', (e) => {
         if (e.target) { //проверка на существование элемента
